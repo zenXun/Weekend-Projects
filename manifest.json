@@ -6,7 +6,8 @@
     "https://api.openai.com/*",
     "activeTab",
     "declarativeContent",
-    "storage"
+    "storage",
+    "tabs"
   ],
   "content_security_policy": "default-src 'self' https://api.openai.com; script-src 'self' 'unsafe-eval'; object-src 'self'",
   "background": {
@@ -15,7 +16,7 @@
     ],
     "persistent": false
   },
-  "page_action": {
+  "browser_action": {
     "default_popup": "popup.html"
   },
   "manifest_version": 2
