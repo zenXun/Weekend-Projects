@@ -1,15 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 14px;
-    margin: 20px;
-}
-
-input[type="text"] {
-    padding: 10px;
-    font-size: 14px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 300px;
+    margin-left: 20px;
+    margin-right: 35px;
+    width: 500px;
 }
 
 button {
@@ -20,39 +14,16 @@ button {
     background-color: #007acc;
     color: #fff;
     cursor: pointer;
-    margin-left: 10px;
+    margin-top: 10px;
 }
 
 button:hover {
     background-color: #005b9f;
 }
 
-textarea {
-    padding: 10px;
-    font-size: 14px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 300px;
-}
-
-.copy-btn {
-    padding: 10px;
-    font-size: 14px;
-    border-radius: 5px;
-    border: none;
-    background-color: #007acc;
-    color: #fff;
-    cursor: pointer;
-    margin-left: 10px;
-}
-
-.copy-btn:hover {
-    background-color: #005b9f;
-}
-
 .container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-row: inherit;
     align-items: center;
 }
 
@@ -62,18 +33,7 @@ textarea {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 1rem;
-}
-
-.inputContainer label,
-.outputContainer label {
-    align-self: flex-start;
-    margin-bottom: 0.5rem;
-}
-
-.buttonContainer {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
+    width: 100%;
 }
 
 textarea {
